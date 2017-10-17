@@ -63,14 +63,14 @@ $ brick_ftp config set api_key XXXXXXXXXX
 ```
 $ brick_ftp site usage
 ```
-## Upload File 
+### Upload File 
 
 ```ruby
 BrickFTP::API::FileOperation::Upload.create(:path => path, :source => source )
-
+```
 - path: where to upload image in BrickFTP
 - source: File to be sent to BrickFTP ( tip: The source should be file, not tempfile )
-```
+
 
 ### More
 
